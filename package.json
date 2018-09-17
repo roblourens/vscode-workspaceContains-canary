@@ -2,10 +2,15 @@
     "name": "vscode-workspacecontains-canary",
     "displayName": "workspaceContains canary",
     "description": "An extension that simply activates on a workspaceContains pattern that doesn't exist, and notifies when it has been activated",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "roblourens",
     "engines": {
         "vscode": "^1.5.0"
+    },
+    "icon": "canary.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roblourens/vscode-workspaceContains-canary"
     },
     "categories": [
         "Other"
