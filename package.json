@@ -2,7 +2,7 @@
     "name": "vscode-workspacecontains-canary",
     "displayName": "workspaceContains canary",
     "description": "An extension that simply activates on a workspaceContains pattern that doesn't exist, and notifies when it has been activated",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "roblourens",
     "engines": {
         "vscode": "^1.5.0"
@@ -19,7 +19,7 @@
         "workspaceContains:**/madeUpFileThatDoesNotExist.txt"
     ],
     "main": "./out/src/extension",
-    "contributes": { },
+    "contributes": {},
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -watch -p ./",
